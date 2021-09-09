@@ -90,7 +90,7 @@ dataWindow$coerate <- results$X.Urbanization.rate.
 
 # Plot the coefficient
 bubblefunc(dataWindow,dataWindow$coeaggregate,'coeaggregate',c(0,0.01, 0.02,0.03, 0.04))
-bubblefunc(dataWindow,dataWindow$coepopulation,'coepopulation',c(-0.000001,-0.000005,-0.00001,-0.000015,-0.00002, -0.00005))
+bubblefunc(dataWindow,dataWindow$coepopulation,'coepopulation',c(-0.000001,-0.000005,-0.00001,-0.000015,-0.00002, -0.00005))
 bubblefunc(dataWindow,dataWindow$coevolume,'coevolume',c( 0,0.01,0.02,0.03,0.04, 0.05))
 bubblefunc(dataWindow,dataWindow$coerate,'coerate',c(0,500,1000,1500,2000,2500))
 
