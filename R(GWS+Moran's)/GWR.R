@@ -57,7 +57,7 @@ xy=dataWindow[,c(13,14)]
 chinasf <- st_as_sf(x=xy,coords = c("longitude", "latitude"))
 chinasp <- as(chinasf, "Spatial") # Transform to "spatial"
 
-coordsW <- coordinates(chinasp) # calculate the centroids of all Wards in London
+coordsW <- coordinates(chinasp) 
 plot(coordsW)
 knn_wards <- knearneigh(coordsW, k=4)# nearest neighbours
 LWard_knn <- knn2nb(knn_wards)
